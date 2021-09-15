@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to HEX</title>
+</head>
+<body>
+    <center>
+        <h1>Convert RGB to HEX</h1>
+        
+        <form id="form" onsubmit="return convert();">
+            <div>
+                <input type="text" id="red" placeholder="red" required>
+                <input type="text" id="green" placeholder="green" required>
+                <input type="text" id="blue" placeholder="blue" required>
+            </div>
+            <br><br>
+            <button type="submit" class="form-submit">Convert</button>
+        </form>
+        
+        <br><br>
+
+        <h2>Hex code</h2>
+        <div id="hex"> </div>
+    </center>
+    
+    <script src="index.js"></script>
+</body>
+</html>
